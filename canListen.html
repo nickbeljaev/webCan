@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="data:,">
+  <style>
+  </style>
+  <script src="canListen.js"> </script>
+  <body>
+    <button type="button" id="scanDevButton" onclick="scanDev()">Scan dev</button>
+    <p id="devSelect"></p>
+    <p id="bitRate"></p>
+    <table>
+      <tbody id="txTab">
+      <tr>
+        <th>Head</th>
+        <th>Data</th>
+        <th>Period</th>
+        <th>Count</th>
+        <th>Send</th>
+        <th>Kill</th>
+        <th>Description</th>
+      </tr>
+      </tbody>
+    </table>
+    <button type="button" onclick="addTxRow()">Add txRow</button>
+    <table>
+      <tbody id="rxTab">
+      <tr>
+        <th>Head</th>
+        <th>Equation d[]</th>
+        <th>Val</th>
+        <th>Description</th>
+        <th>Count</th>
+        <th>Kill</th>
+        <th>Trend</th>
+      </tr>
+      </tbody>
+    </table>
+    <button type="button" onclick="addRxRow()">Add rxRow</button>
+  </body>
+</html>
+
+
+
